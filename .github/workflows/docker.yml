@@ -35,7 +35,7 @@ jobs:
           - { variant: 7zip, with_7zip: "true", suffix: "-7zip" }
 
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7.0.1
 
       - uses: docker/setup-qemu-action@v4
 
